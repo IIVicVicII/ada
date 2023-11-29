@@ -518,7 +518,7 @@ struct mundo_h *destroiMundo (struct mundo_h *mundo)
   return NULL ;
 }
 
-void testaMundo (struct mundo_h mundo)
+void testaMundo (struct mundo_h *mundo)
 {
 
   struct lef_t *l ;  
